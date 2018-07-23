@@ -1,0 +1,36 @@
+<ion-view view-title="Home">
+    <ion-nav-buttons side="secondary"></ion-nav-buttons>
+    <ion-tabs class="tabs-striped tabs-color-assertive">
+        <ion-tab title="All" ui-sref="app.home">
+            <ion-nav-view name="tab-all" cache-view="false"></ion-nav-view>
+          </ion-tab>
+    
+          <ion-tab title="Search" ui-sref="app.home.search">
+            <ion-nav-view name="tab-search" cache-view="false" ></ion-nav-view>
+          </ion-tab>
+    
+          <ion-tab title="Browse" ui-sref="app.home.browse">
+            <ion-nav-view name="tab-browser" cache-view="false"></ion-nav-view>
+          </ion-tab>
+    
+          <ion-tab title="Playlists"  ui-sref="app.home.playlists">
+            <ion-nav-view name="tab-playlists" cache-view="false"></ion-nav-view>
+          </ion-tab>
+        </ion-tab>
+
+    </ion-tabs>
+    <ion-content padding="true" style="top:94px;">
+        <ion-list>
+            <ion-item>
+                Search
+            </ion-item>
+            <ion-item>
+                Browser
+            </ion-item>
+            <ion-item>
+                Playlists
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
+      
